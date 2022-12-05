@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void OnMouseDown() 
     {
-        myAnim.SetTrigger("Clicked");
+        myAnim.SetTrigger("Click");
     }
 
 }

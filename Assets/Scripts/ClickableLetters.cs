@@ -13,7 +13,7 @@ public class ClickableLetters : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
 
-        // Debug.Log($"Clicked on letter {_randomLetter}");
+        Debug.Log($"Clicked on letter {_randomLetter}");
         if (_randomLetter == GameController.Instance.Letter)
         {
             GetComponent<TMP_Text>().color = Color.green;
